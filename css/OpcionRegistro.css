@@ -1,0 +1,79 @@
+/*Opciones de Registro*/
+.body_page{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: block;
+    margin-top: 80px;
+}
+.container-tituloption{
+    max-width: 1100px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.container-tituloption p{
+    margin-top: 30px;
+    color: #00C194;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: gray;
+}
+.container-tituloption h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+}
+.container_cardoption{
+    max-width: 1100px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardoption{
+    width: 280px;
+    position: relative;
+    margin: 35px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #eff3f5;
+    box-shadow: -2px 4px 5px 4px gray;
+    border-radius: 6px;
+    height: 280px;
+}
+.optionclass{
+    color: gray;
+
+}
+.cardoption .info_description{
+    text-align: center;
+    margin: 0px 20px;
+    margin-top: 20px;
+}
+.cardoption .info_description h5{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #00C194;
+}
+.cardoption .info_description p{
+    font-size: 12px;
+}
+.iconoption{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconoption i{
+    color: #00C194;
+    font-size: 35px;
+}
